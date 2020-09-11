@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-bee",
+  "name": "juunone-dev",
   "private": true,
-  "description": "Gatsby blog starter template",
+  "description": "Juunone's dev blog",
   "version": "0.1.0",
-  "author": "Jbee[JaeYeopHan]<ljyhanll@gmail.com>",
+  "author": "Juunone<juunone@gmail.com>",
   "bugs": {
-    "url": "https://github.com/JaeYeopHan/gatsby-starter-bee/issues"
+    "url": "https://github.com/juunone/juunone-dev/issues"
   },
   "dependencies": {
     "gatsby": "^2.2.8",
@@ -66,15 +66,17 @@
     "recursive-readdir": "^2.2.2",
     "signale": "^1.3.0"
   },
-  "homepage": "https://github.com/JaeYeopHan/gatsby-starter-bee#readme",
+  "homepage": "https://github.com/juunone/juunone-dev#readme",
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "dev",
+    "blog"
   ],
   "license": "MIT",
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JaeYeopHan/gatsby-starter-bee.git"
+    "url": "git+https://github.com/juunone/juunone-dev.git"
   },
   "scripts": {
     "post": "gatsby-post-gen",
