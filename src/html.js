@@ -14,7 +14,7 @@ export default class HTML extends React.Component {
           />
           {this.props.headComponents}
         </head>
-        <body {...this.props.bodyAttributes}>
+        <body {...this.props.bodyAttributes} className="dark">
           {this.props.preBodyComponents}
           <noscript>You need to enable JavaScript to run this app.</noscript>
           <div

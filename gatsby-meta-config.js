@@ -11,7 +11,7 @@ module.exports = {
     facebook: ``, // Your Facebook account
     linkedin: `juunone`, // Your LinkedIn account
   },
-  icon: `content/assets/felog.png`, // Add your favicon
+  icon: `content/assets/favicon_j.ico`, // Add your favicon
   keywords: [`blog`, `dev`, `fe`],
   comment: {
     disqusShortName: 'https-juunone-github-io', // Your disqus-short-name. check disqus.com.
