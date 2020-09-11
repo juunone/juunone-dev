@@ -1,8 +1,8 @@
 module.exports = {
-  title: `Juunone dev`,
-  description: `개발 폐관수련`,
+  title: `juunone's devlog`,
+  description: `juunone의 개발 블로그입니다. 기록하고 회고하고 공유합니다.`,
   author: `juunone`,
-  introduction: `FE`,
+  introduction: `야크 털 깎기를 하며 더 좋은 코드를 설계하고 생각합니다.`,
   siteUrl: `https://juunone.netlify.app`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
@@ -11,11 +11,11 @@ module.exports = {
     facebook: ``, // Your Facebook account
     linkedin: `juunone`, // Your LinkedIn account
   },
-  icon: `content/assets/favicon_j.ico`, // Add your favicon
-  keywords: [`blog`, `dev`, `fe`],
+  icon: `content/assets/favi.png`, // Add your favicon
+  keywords: [`frontend`, `react`, `typescript`, `javascript`],
   comment: {
-    disqusShortName: 'https-juunone-github-io', // Your disqus-short-name. check disqus.com.
-    utterances: 'juuone/juunone-dev', // Your repository for archive comment
+    disqusShortName: '', // Your disqus-short-name. check disqus.com.
+    utterances: 'juunone/juunone-dev', // Your repository for archive comment
   },
   configs: {
     countOfInitialPost: 10, // Config your initial count of post
