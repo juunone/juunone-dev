@@ -1,8 +1,8 @@
 module.exports = {
-  title: `juunone's devlog`,
+  title: `Juunone's devlog`,
   description: `juunone의 개발 블로그입니다. 기록하고 회고하고 공유합니다.`,
   author: `juunone`,
-  introduction: `야크 털 깎기를 하며 더 좋은 코드를 설계하고 생각합니다.`,
+  introduction: `야크 쉐이빙을 하며 더 좋은 코드를 설계하고 생각합니다.`,
   siteUrl: `https://juunone.netlify.app`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
@@ -11,7 +11,7 @@ module.exports = {
     facebook: ``, // Your Facebook account
     linkedin: `juunone`, // Your LinkedIn account
   },
-  icon: `content/assets/favi.png`, // Add your favicon
+  icon: `content/assets/kind.png`, // Add your favicon
   keywords: [`frontend`, `react`, `typescript`, `javascript`],
   comment: {
     disqusShortName: '', // Your disqus-short-name. check disqus.com.
