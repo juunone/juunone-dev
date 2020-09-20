@@ -20,6 +20,8 @@ export const Bio = () => (
                 alt={author}
                 style={{
                   borderRadius: `100%`,
+                  width: '72px',
+                  height: '72px',
                 }}
               />
               <div className="author-name">
@@ -62,9 +64,9 @@ export const Bio = () => (
 
 const bioQuery = graphql`
   query BioQuery {
-    avatar: file(absolutePath: { regex: "/one.png/" }) {
+    avatar: file(absolutePath: { regex: "/me.jpg/" }) {
       childImageSharp {
-        fixed(width: 72, height: 72) {
+        fixed(width: 300, height: 300) {
           ...GatsbyImageSharpFixed
         }
       }
