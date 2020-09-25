@@ -22,13 +22,14 @@ draft: false
 ## Browser 주소창에 URL을 입력하면 생기는일?
 
 참고
--[![video](http://img.youtube.com/vi/2ZUxoi7YNgs/0.jpg)](https://youtu.be/2ZUxoi7YNgs)
-위의 애니메이션을 통해서 브라우저에 URL을 입력받으면 생기는일을 간단하게 확인해본다.
+
+- 비디오 애니메이션 통해서 브라우저에 URL을 입력받으면 생기는일 바로가기
+[![video](https://img.youtube.com/vi/2ZUxoi7YNgs/0.jpg)](https://youtu.be/2ZUxoi7YNgs)
 
 -  [HTTPS 작동 방식을 애니메이션으로 설명한 사이트 바로가기](https://howhttps.works/ko/)
 
-- 브라우저 작동방식 한눈에 보기
-![브라우저 작동방식 한눈에 보기](https://user-images.githubusercontent.com/35126809/94227775-4e962100-ff36-11ea-8900-4ffb29ad84f1.jpeg)
+- 브라우저에 URL 입력시 작동 방식 한눈에 보기
+![브라우저에 URL 입력시 작동 방식 한눈에 보기](https://user-images.githubusercontent.com/35126809/94227775-4e962100-ff36-11ea-8900-4ffb29ad84f1.jpeg)
 출처: https://twitter.com/kamranahmedse/status/1297131414190776320
 
 - - - 
