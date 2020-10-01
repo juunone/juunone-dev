@@ -1,5 +1,5 @@
 ---
-title: TypsScript 의 동작 원리, 기능, 패턴
+title: TypsScript 동작 원리, 기능, 패턴
 date: 2020-09-30 16:09:63
 category: typescript
 thumbnail: { thumbnailSrc }
