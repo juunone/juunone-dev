@@ -23,6 +23,26 @@ export default class HTML extends React.Component {
             dangerouslySetInnerHTML={{ __html: this.props.body }}
           />
           {this.props.postBodyComponents}
+
+          {/* naver analytics */}
+          <script
+            key="naver"
+            src="https://wcs.naver.net/wcslog.js"
+            type="text/javascript"
+            aysnc="true"
+          />
+          <script
+            key="naver_scripts"
+            dangerouslySetInnerHTML={{
+              __html: `
+              if(!wcs_add) var wcs_add = {};
+              wcs_add["wa"] = "8be624a1966ea0";
+              if(window.wcs) {
+                wcs_do();
+              }
+              `,
+            }}
+          />
         </body>
       </html>
     )
