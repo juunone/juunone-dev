@@ -9,8 +9,8 @@ lang: 'en'
 <b>&#x1F4E7;</b> <a href="mailto:juunone@gmail.com" target="_blank">juunone@gmail.com</a> <br />
 <b>&#x1F4BB;</b> <a href="https://github.com/juunone" target="_blank">https://github.com/juunone</a> <br />
 <b>&#x1F606;</b> <a href="https://www.linkedin.com/in/juunone/" target="_blank">https://www.linkedin.com/in/juunone/</a><br />
-<b>&#x1F310;</b> <a href="https://juunone.github.io/" target="_blank">https://juunone.github.io/</a> <br />
-<b>![](../assets/notion.png#width=20px;)</b> <a href="https://www.notion.so/juunone/" target="_blank">https://www.notion.so/juunone/</a>
+<b>&#x1F310;</b> <a href="https://juunone.netlify.app/" target="_blank">https://juunone.netlify.app/</a> <br />
+<b>![](../assets/notion.png#width=20px;)</b> <a href="https://www.notion.so/juunone/17b9cadd221e4d58921c7a5662f093a4?v=004925ec493948a1bc529e1e4e25515e" target="_blank">https://www.notion.so/juunone/</a>
 
 ## <b>&#x1F680;</b> 소개
 
