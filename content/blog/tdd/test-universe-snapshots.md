@@ -163,11 +163,11 @@ export APPLITOOLS_API_KEY=<your_key> //applitools eyes 에서 사용자 키를 �
 
 ### 모든 케이스 성공시
 
-![img1](https://user-images.githubusercontent.com/35126809/95276471-3ef7d000-0886-11eb-9262-457ee23d8bb3.png)
+![img1](./images/snapshots/1.png)
 
 그리고 applitools eyes 대시보드에 들어가보면 아래와 같이 볼 수 있다.
 
-![img2](https://user-images.githubusercontent.com/35126809/95276477-415a2a00-0886-11eb-9767-7a011ecabccd.png)
+![img1](./images/snapshots/2.png)
 
 5개 모두 성공한 스냅샷 테스트 케이스
 
@@ -176,13 +176,13 @@ export APPLITOOLS_API_KEY=<your_key> //applitools eyes 에서 사용자 키를 �
 
 ### 실패 케이스 존재시
 
-![img3](https://user-images.githubusercontent.com/35126809/95276480-41f2c080-0886-11eb-8ef7-c685efedd1b4.png)
+![img1](./images/snapshots/3.png)
 
-![img4](https://user-images.githubusercontent.com/35126809/95276483-4323ed80-0886-11eb-8de4-8bf39fea5c41.png)
+![img1](./images/snapshots/4.png)
 
 1개의 실패한 테스트가 존재할 경우
 
-![img5](https://user-images.githubusercontent.com/35126809/95276485-43bc8400-0886-11eb-95f5-e9b39839f7a1.png)
+![img1](./images/snapshots/5.png)
 
 위에서 언급했던  AI 머신러닝을 통해서 어떤점이 변경됐는지 확인해서 표시 해준다.
 

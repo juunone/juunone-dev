@@ -255,3 +255,9 @@ describe("utils", () => {
   });
 });
 ```
+
+![img1](./images/unit/1.png)
+`yarn test:watch` 실행 시키면 위와 같은 결과물을 볼수 있다.
+- 5개의 Test suites
+    - suite 마다 1개의 테스트
+- 1개 Snapshots test

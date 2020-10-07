@@ -19,7 +19,7 @@ draft: false
 
 # 블랙박스 테스트 기법이란?
 
-![Black-Box-Testing](https://user-images.githubusercontent.com/35126809/94793048-da1b2080-0414-11eb-9cc3-6ee31e5b1824.png)
+![Black-Box-Testing](./images/blackbox/1.png)
 > 출처: [system-testing](https://datawider.com/what-is-system-testing-and-types-of-system-testing/)
 
 블랙박스 테스트란 '명세' 와 '경험' 을 기반으로 하는 테스트이다.
@@ -158,7 +158,7 @@ describe('코스 이수 여부', () => {
 
 테스트 케이스로 도출한다.
 
-![state_transition.jpg](https://user-images.githubusercontent.com/35126809/94793049-db4c4d80-0414-11eb-9bbd-6b10530486f3.jpg)
+![state_transition.jpg](./images/blackbox/2.jpg)
 > 출처: [start transition test](https://www.tutorialspoint.com/software_testing_dictionary/state_transition)
 
 
