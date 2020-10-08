@@ -9,8 +9,6 @@ draft: false
 # 참고
 
 - [https://github.com/juunone/test-universe](https://github.com/juunone/test-universe)
-- [BDD-Behavior-Driven-Development](https://www.notion.so/BDD-Behavior-Driven-Development-0e6bdf1abcea41d881a6dc637d15da15)
-- [Blackbox test](https://www.notion.so/f1976fb35a694ec6992535e7a12a053c) 
 
 # 학습 목표
 
