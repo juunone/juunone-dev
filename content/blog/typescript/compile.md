@@ -55,7 +55,7 @@ TypeScript는 JavaScript의 모든 기능을 포함하고, 동적 타입 언어�
 
 # TypeScript compile
 
-TypeScript 컴파일을 보기전에 [야크 털 깎기](https://www.notion.so/juunone/Yak-Shaving-628846ea37a349ac82cf1a9a73fabed6)를 하게 되는데...JavaScript 컴파일(JITC) 부터 확인 해보자.
+TypeScript 컴파일을 보기전에 [야크 털 깎기](https://www.notion.so/juunone/Yak-Shaving-628846ea37a349ac82cf1a9a73fabed6)를 하게 되는데...JavaScript 컴파일[(JITC)](https://juunone.netlify.app/javascript/jitc/) 부터 확인 해보자.
 
 TypeScript에서의 컴파일 과정은  
 
