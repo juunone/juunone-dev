@@ -1,5 +1,5 @@
 ---
-title: TypeScript 고급 타입
+title: TypeScript advanced type first
 date: 2020-10-17 22:10:73
 category: typescript
 thumbnail: { thumbnailSrc }
@@ -11,6 +11,7 @@ draft: false
 - [O'REILLY](https://www.oreilly.com/library/view/programming-typescript/9781492037644/)
 - [TypeScript Handbook](https://typescript-kr.github.io/pages/basic-types.html)
 - [https://sojin.io/article/공변과-반공변/](https://sojin.io/article/%EA%B3%B5%EB%B3%80%EA%B3%BC-%EB%B0%98%EA%B3%B5%EB%B3%80/)
+- [TypeScript Playground](https://www.typescriptlang.org/play)
 
 # 학습 목표
 

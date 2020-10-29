@@ -10,6 +10,7 @@ draft: false
 
 - [O'REILLY](https://www.oreilly.com/library/view/programming-typescript/9781492037644/)
 - [TypeScript Handbook](https://typescript-kr.github.io/pages/basic-types.html)
+- [TypeScript Playground](https://www.typescriptlang.org/play)
 
 ## 학습 목표
 
