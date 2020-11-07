@@ -1,5 +1,5 @@
 ---
-title: TypeScript advanced type second
+title: TypeScript 타입 추론
 date: 2020-10-25 12:10:87
 category: typescript
 thumbnail: { thumbnailSrc }

@@ -1,5 +1,5 @@
 ---
-title: TypeScript advanced type first
+title: TypeScript 가변성
 date: 2020-10-17 22:10:73
 category: typescript
 thumbnail: { thumbnailSrc }
