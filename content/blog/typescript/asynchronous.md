@@ -3,7 +3,7 @@ title: TypeScript 비동기 프로그래밍 동시성과 병렬성
 date: 2020-11-07 10:11:31
 category: typescript
 thumbnail: { thumbnailSrc }
-draft: true
+draft: false
 ---
 
 ## 참고
@@ -71,5 +71,95 @@ class Promise<T> {
 	constructor(f: Executor<T>) {}
 	then<U>(g: (result: T) => Promise<U>): Promise<U>
 	catch<U>(g: (error: unknown) => Promise<U>): Promise<U>
+}
+```
+
+## 비동기 스트림
+
+서로 다른 시점에 이용할 수 있게 되는 값.
+
+각각의 데이터를 미래의 어떠한 시점에 받게 된다는 점을 아래와 같은 방법으로 설계할 수 있다.
+
+1. `NodeJS` Event Emitter (이벤트 방출)
+2. `RxJS` 리액티브 프로그래밍 라이브러리
+
+## 이벤트 방출
+
+채널로 이벤트를 방출하고 채널에서 발생하는 이벤트를 리스닝 하는 API를 제공한다.
+
+```tsx
+interface Emitter {
+	//이벤트 방출
+	emit(channel: string,  value: unknown): void
+  //이벤트 방출되었을 때 작업 수행
+	on(channel: string, f: (value: unkown) => void): void
+}
+```
+
+`NodeRedis` 를 이용한 Event Emitter 예제
+
+```tsx
+import Redis from 'redis'
+
+let client = redis.reateClient()
+
+client.on('ready', () => console.info('Client is ready'))
+client.on('error', e => console.error('An error occurred!', e))
+client.on('reconnecting', params => console.info('Reconnecting...', params))
+
+//오버로드된 타입 사용
+type RedisClient = {
+	on(event: 'ready', f: () => void): void
+	on(event: 'error', f: (e: Error) => void): void
+	on(event: 'reconnecting', f (params: {attempt: number, delay: number}) => void): void
+}
+
+//더 간결하고 안전한 매핑 타입 정의
+type Events = {
+	ready: void
+	error: Error
+	reconnecting: { attempt: number, delay: number }
+}
+
+type RedisClient = {
+	on<E extends keyof Events>(
+		event: E,
+		f: (arg: Events[E]) => void
+	): void
+	emit<E extends keyof Events>(
+		event: E,
+		arg: Events[E]
+	): void
+}
+```
+
+이벤트 이름과 인수를 하나의 형태로 따로 빼고, 리스너와 방출을 생성해서 매핑하는 패턴.
+
+## 타입 안전 멀티스레딩
+
+작업을 여러 개의 스레드로 분리하고 속도를 높이거나 부하를 줄여 반응성을 높이는 일.
+
+브라우저와 서버에서 안전하게 병렬 프로그래밍을 할 수 있는 패턴
+
+### 브라우저에서 웹 워커 활용
+
+웹 워커는 코드를 다른 CPU 스레드에서 병렬로 실행하도록 한다.
+
+웹 워커는 브라우저에서 제공하는  API 이므로 설계자들은 안전성에 최우선 한다.
+
+웹 워커가 메인 스레드나 다른 웹 워커와 통신하는 주된 수단은 메세지 전달이 되어야 한다.
+
+```tsx
+//MainThread.ts
+let worker = new Worker('WorkerScript.ts')
+worker.onmessage = e => {
+	console.log(e.data) // 'Ack: new name' 기록
+}
+worker.postMessage('new name')
+
+//WorkerScript.ts
+onmessage = e => {
+	console.log(e.data) // 'new name' 기록
+	postMessage(`Ack: "${e.data}"`)
 }
 ```
