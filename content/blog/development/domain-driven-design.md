@@ -3,7 +3,7 @@ title: DDD (Domain Driven Design)
 date: 2020-11-24 16:11:61
 category: development
 thumbnail: { thumbnailSrc }
-draft: true
+draft: false
 ---
 
 # 참고
