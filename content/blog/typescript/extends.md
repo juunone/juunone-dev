@@ -3,7 +3,7 @@ title: extends, implements 차이
 date: 2020-12-05 21:12:95
 category: typescript
 thumbnail: { thumbnailSrc }
-draft: true
+draft: false
 ---
 
 # 참고
