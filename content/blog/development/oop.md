@@ -3,7 +3,7 @@ title: 함수형, 객체지향 패러다임 차이
 date: 2020-12-06 20:12:00
 category: development
 thumbnail: { thumbnailSrc }
-draft: true
+draft: false
 ---
 
 # 참고
