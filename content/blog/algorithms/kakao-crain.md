@@ -3,7 +3,7 @@ title: 2019 카카오 겨울 인턴쉽 크레인 인형뽑기
 date: 2020-12-07 20:12:87
 category: algorithms
 thumbnail: { thumbnailSrc }
-draft: true
+draft: false
 ---
 
 # 2019 카카오 겨울 인턴쉽 크레인 인형뽑기
