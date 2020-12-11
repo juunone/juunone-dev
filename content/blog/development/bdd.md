@@ -3,7 +3,7 @@ title: BDD (Behavior Driven Development)
 date: 2020-12-10 11:12:84
 category: development
 thumbnail: { thumbnailSrc }
-draft: true
+draft: false
 ---
 
 # 참고
