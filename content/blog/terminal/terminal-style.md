@@ -48,6 +48,14 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 실행해주면 다양한 powerline font가 설치된다.
 powerline font를 사용하는 이유는 터미널에서 폰트의 깨짐 방지를 위해 사용한다.
 
+## Hack Nerd Font 설치
+powerline 폰트 및 아이콘 설치를 해준다.
+
+```sh
+brew tap homebrew/cask-fonts
+brew cask install font-hack-nerd-font
+```
+
 ## oh-my-zsh 플러그인 설치
 
 - [autojump](https://github.com/wting/autojump)
