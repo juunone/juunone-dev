@@ -1,12 +1,12 @@
 ---
-title: cli
+title: Git Command Line
 date: 2020-12-29 11:12:26
 category: git
 thumbnail: { thumbnailSrc }
 draft: false
 ---
 
-## git CLI
+## Git CLI
 
 ```sh
 git status //깃 상태
@@ -43,7 +43,7 @@ git push :{tag} //태그 리모트 태그 삭제
 git tag -d {tag} //태그 로컬 삭제
 ```
 
-### git v2.2.30 >==
+### Git v2.2.30 >==
 
 다양한 역할 수행하던 git checkout 커맨드가 git swtich , git restore 로 분리됨.
 ```sh
