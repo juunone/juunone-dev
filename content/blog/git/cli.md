@@ -25,6 +25,8 @@ git add . //현재 대기중인 파일 모두 추가
 git commit -m "{message}" //커밋 메세지 추가
 git push origin {branch} //커밋 푸시 origin 브랜치
 
+git clean -fd // unstaged 파일,폴더 모두 삭제
+
 git push origin --delete {branch} //리모트브랜치 삭제
 git push origin :{branch} //리모트브랜치 삭제
 
