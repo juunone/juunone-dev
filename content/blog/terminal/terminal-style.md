@@ -53,7 +53,7 @@ powerline 폰트 및 아이콘 설치를 해준다.
 
 ```sh
 brew tap homebrew/cask-fonts
-brew cask install font-hack-nerd-font
+brew install font-hack-nerd-font --cask
 ```
 
 ## oh-my-zsh 플러그인 설치
