@@ -1,7 +1,7 @@
 ---
 title: Document System
 date: 2020-10-09 23:10:53
-category: article
+category: development
 thumbnail: { thumbnailSrc }
 draft: false
 ---
@@ -26,19 +26,19 @@ draft: false
 ![system.png](./images/document/system.png)
 
 - Tutorial
-    - 학습하기 좋은 문서
-    - 어린아이에게 요리를 가르쳐주는것
+  - 학습하기 좋은 문서
+  - 어린아이에게 요리를 가르쳐주는것
 - How-to guide
-    - 목표 지향
-    - 요리의 조리법
+  - 목표 지향
+  - 요리의 조리법
 - 해설 / Explanation
-    - 이해위주
-    - 요리의 역사에 대한 기사
+  - 이해위주
+  - 요리의 역사에 대한 기사
 - 기술 참조 / Technical reference
-    - 정보 중심
-    - 동작을 기술
-    - 객관적이고 정확한 내용
-    - 요리 백과사전
+  - 정보 중심
+  - 동작을 기술
+  - 객관적이고 정확한 내용
+  - 요리 백과사전
 
 # 인지하고 있어야 할 내용
 

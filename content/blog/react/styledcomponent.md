@@ -1,12 +1,13 @@
 ---
 title: "styled components basics"
 date: 2019-05-10 22:00:00
-category: development
+category: react
 thumbnail: { thumbnailSrc }
 draft: false
 ---
 
 ## what is styled-components?
+
 컴포넌트 스타일링 방식 중 하나인, JS 코드 내부에서 스타일을 정의하는 방식입니다.
 injectThemes 를 이용해 전체 테마를 관리 및 수정할 수 있고,
 스타일의 재사용을 통해 리소스 낭비를 줄일 수 있다.

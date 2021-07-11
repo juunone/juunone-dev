@@ -1,7 +1,7 @@
 ---
 title: "React application SPA with gh-pages deploy(2)"
 date: 2019-01-13 21:00:00
-category: development
+category: react
 thumbnail: { thumbnailSrc }
 draft: false
 ---
@@ -147,7 +147,7 @@ export default NotFound;
 
 <pre><code><span style="color:orange">yarn</span> predeploy</code><code><span style="color:orange">yarn</span> deploy</code></pre>
 
-CRA로 만든 앱이 해당 homepage 에 호스팅 된걸 확인할 수 있습니다. <a href="https://juunone.github.io/react-spa-ghpages" target="\_blank">https://juunone.github.io/react-spa-ghpages</a>
+CRA로 만든 앱이 해당 homepage 에 호스팅 된걸 확인할 수 있습니다. <a href="<<https://juunone.github.io/react-spa-ghpages>>" target="\_blank">https://juunone.github.io/react-spa-ghpages</a>
 
 참고 : 현재 데모링크로 올려놓은 페이지의경우는 cra + webpack + react-router-dom + gh-pages 로 구성된
 SPA 환경입니다.

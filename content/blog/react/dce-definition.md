@@ -1,7 +1,7 @@
 ---
 title: "React editor [Dynamic contents editor]"
 date: 2018-02-08 14:00:00
-category: development
+category: react
 thumbnail: { thumbnailSrc }
 draft: false
 ---

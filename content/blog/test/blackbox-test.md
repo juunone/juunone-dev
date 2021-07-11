@@ -1,7 +1,7 @@
 ---
 title: 블랙박스 테스트 기법
 date: 2020-10-01 18:10:99
-category: tdd
+category: test
 thumbnail: { thumbnailSrc }
 draft: false
 ---
@@ -101,7 +101,7 @@ describe("날짜 필터", () => {
     const date = 0; //given
     const result = getDateCriteria(date); //when
 
-		expect(drinkOctopus).toThrowError(new Error("value '0' has no result.")); //then
+  expect(drinkOctopus).toThrowError(new Error("value '0' has no result.")); //then
   });
 
   it("날짜가 1이면 결과가 'week' 이어야 한다.", () => {
@@ -126,29 +126,29 @@ describe("날짜 필터", () => {
 
 ```jsx
 describe('코스 이수 여부', () => {
-	it('모든 스텝을 통과했다면 코스를 이수해야 한다.', () => {
-		const course = { //given
-			a: true,
-			b: true,
-			c: true
-		};
-	
-		const isPassed = judgeCourse(course); //when
-	
-		expect(isPassed).toBeTruthy(); //then
-	})
+ it('모든 스텝을 통과했다면 코스를 이수해야 한다.', () => {
+  const course = { //given
+   a: true,
+   b: true,
+   c: true
+  };
+ 
+  const isPassed = judgeCourse(course); //when
+ 
+  expect(isPassed).toBeTruthy(); //then
+ })
 
-	it('모든 스텝을 통과하지 못했다면 코스를 이수하지 못해야 한다.', () => {
-		const course = { //given
-			a: true,
-			b: true,
-			c: false
-		};
-	
-		const isPassed = judgeCourse(course); //when
-	
-		expect(isPassed).toBeFalsy(); //then
-	})
+ it('모든 스텝을 통과하지 못했다면 코스를 이수하지 못해야 한다.', () => {
+  const course = { //given
+   a: true,
+   b: true,
+   c: false
+  };
+ 
+  const isPassed = judgeCourse(course); //when
+ 
+  expect(isPassed).toBeFalsy(); //then
+ })
 })
 ```
 
@@ -161,7 +161,6 @@ describe('코스 이수 여부', () => {
 ![state_transition.jpg](./images/blackbox/2.jpg)
 > 출처: [start transition test](https://www.tutorialspoint.com/software_testing_dictionary/state_transition)
 
-
 |Tests|Test1|Test2|Test3|
 |:---:|:---:|:---:|:---:|
 |Start State|off|on|on|
@@ -172,31 +171,31 @@ describe('코스 이수 여부', () => {
 
 ```jsx
 describe('코스 이수 여부', () => {
-	let switch;
-	beforeAll(() => {
-		switch = new Switch({state:'off'});
-	})
+ let switch;
+ beforeAll(() => {
+  switch = new Switch({state:'off'});
+ })
 
-	it('스위치를 키면 불이 켜져야 한다.', () => {
-		switch.on(); //given, when
-	
-		expect(switch.state).toBe('on'); //then
-	})
+ it('스위치를 키면 불이 켜져야 한다.', () => {
+  switch.on(); //given, when
+ 
+  expect(switch.state).toBe('on'); //then
+ })
 
-	it('스위치를 끄면 불이 꺼져야 한다.', () => {
-		switch.on(); //given
+ it('스위치를 끄면 불이 꺼져야 한다.', () => {
+  switch.on(); //given
 
-		switch.off(); //when return 'Light Off'
-	
-		expect(switch.state).toBe('off'); //then
-	})
+  switch.off(); //when return 'Light Off'
+ 
+  expect(switch.state).toBe('off'); //then
+ })
 
-	it('스위치를 끄지 못했다면, 불은 켜 있어야 한다.', () => {
-		switch.on(); //given
+ it('스위치를 끄지 못했다면, 불은 켜 있어야 한다.', () => {
+  switch.on(); //given
 
-		switch.off(); //when return 'Fault'
-	
-		expect(switch.state).toBe('on'); //then
-	})
+  switch.off(); //when return 'Fault'
+ 
+  expect(switch.state).toBe('on'); //then
+ })
 })
 ```

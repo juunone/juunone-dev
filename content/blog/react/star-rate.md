@@ -1,7 +1,7 @@
 ---
 title: "별점 평가 컴포넌트"
 date: 2019-02-28 10:00:00
-category: development
+category: react
 thumbnail: { thumbnailSrc }
 draft: false
 ---

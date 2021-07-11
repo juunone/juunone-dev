@@ -1,7 +1,7 @@
 ---
 title: "Payment with Iamport"
 date: 2020-01-13 09:00:00
-category: development
+category: react
 thumbnail: { thumbnailSrc }
 draft: false
 ---
@@ -14,6 +14,7 @@ draft: false
 ## 아임포트 라이브러리 추가하기
 
 인증결제는 `아임포트 라이브러리` cdn 과 `jQuery`가 필수이다.
+
 ```html
 <!-- jQuery -->
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js" ></script>
@@ -22,6 +23,7 @@ draft: false
 ```
 
 ## 가맹점 식별코드
+
 어드민에서 확인가능한 가맹점 식별코드를 가지고
 root `index.html`에서 `IMP.init(${가맹점 식별코드})` 해준다.  
 윈도우함수에 IMP 객체가 들어가고, 전역객체로 프로젝트 내부에서 사용하게 된다.
@@ -32,7 +34,9 @@ IMP.init("imp00000000"); // "imp00000000" 대신 발급받은 "가맹점 식별�
 ```
 
 ## 결제 호출
+
 IMP 전역객체에는 5개의 메소드가 존재하는데.
+
 - init
 - agency
 - request_pay
@@ -76,6 +80,7 @@ IMP.request_pay({ // param
 ```
 
 ## 결제 response
+
 결제에 대한 결과는 디테일하게 구분된다.  
 취소한 여부도 알수 있으며, 영수증 url도 같이 전달해준다.  
 여기서 사용한 카드이름, 금액, 카드앞 4자리등을 결제 내역 페이지를 통해 정보를 제공한다.
@@ -134,5 +139,6 @@ IMP.request_pay({ // param
 ```
 
 ## 참조
+
 [iamport docs](https://docs.iamport.kr/implementation/payment)  
 [iamport api swagger](https://api.iamport.kr)

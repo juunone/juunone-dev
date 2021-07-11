@@ -1,7 +1,7 @@
 ---
 title: Test universe guide (E2E test)
 date: 2020-10-07 10:15:53
-category: tdd
+category: test
 thumbnail: { thumbnailSrc }
 draft: false
 ---
@@ -40,8 +40,8 @@ test-universe(이하 'TU' 라고 칭함) 는 간단한 TO-DO 앱을 통해 테�
 
 cypress는 브라우저에서 일어나는 모든 것들을 눈으로 보며, 테스트 할 수 있게 도와주는 도구다.
 
-- [cypress](https://docs.cypress.io/guides/getting-started/installing-cypress.html#Opening-Cypress), 
-- [puppeteer](https://github.com/puppeteer/puppeteer) 
+- [cypress](https://docs.cypress.io/guides/getting-started/installing-cypress.html#Opening-Cypress),
+- [puppeteer](https://github.com/puppeteer/puppeteer)
 
 E2E 테스트 도구는 위 중 하나를 추천하고 싶다.
 내가 cypress를 선택한점은 좀더 상호작용(interactive)이 원활하다.
@@ -58,7 +58,7 @@ cypress는 Test GUI 를 제공한다.
 
 오른쪽엔 실제 브라우저가 작동하는 preview까지 같이 보여준다.
 
-테스트를 코드로만 보다가 화면을 보면 확실히 직관적이고 어떤 케이스에서 문제가 발생했는지 
+테스트를 코드로만 보다가 화면을 보면 확실히 직관적이고 어떤 케이스에서 문제가 발생했는지
 
 빠르게 확인이 가능하다.
 

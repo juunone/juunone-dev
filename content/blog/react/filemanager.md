@@ -1,7 +1,7 @@
 ---
 title: "React File Manager 프로젝트 회고록"
 date: 2018-07-03 12:00:00
-category: development
+category: react
 thumbnail: { thumbnailSrc }
 draft: false
 ---
@@ -102,7 +102,7 @@ module.exports = {
 };
 ```
 
-위와 같이 entry를 분리해서 웹에서 확인해볼경우 https://도메인/dist/js/filemanager.js 에서<br />
+위와 같이 entry를 분리해서 웹에서 확인해볼경우 <https://도메인/dist/js/filemanager.js> 에서<br />
 filemanager.js라는 이름으로 렌더링 컴포넌트가 export 된걸 확인 할 수 있다.<br />
 결론적으로 `components/Uploader/render.js` 안에 import 된 컴포넌트들을 묶어 플러그인 형태의 `filemanager.js` 로 export 해주었다.
 

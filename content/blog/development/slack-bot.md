@@ -15,6 +15,7 @@ draft: false
   - heroku 로 항상 사용할 수 있는 환경 구축
 
 ## Slack API
+
 - Web API
 - Events API
 - Interactive Messages
@@ -32,6 +33,7 @@ draft: false
 처음 heroku를 사용하면 [https://devcenter.heroku.com/articles/getting-started-with-nodejs](https://devcenter.heroku.com/articles/getting-started-with-nodejs)에서 사용 가이드를 제공한다.
 
 아래와 같이 heroku 스타트 레퍼런스를 복사해서 프로젝트 기본베이스로 사용했다.
+
 ```sh
 git clone https://github.com/heroku/node-js-getting-started.git
 cd node-js-getting-started
@@ -47,6 +49,7 @@ heroku open (로컬 띄우기)
 ```
 
 ## RTM(Real-Time Messaging) API
+
 아래와 같이 `RTM API` 를 이용해서 리얼타임으로
 챗봇과 메세지를 주고받을 수 있게 구현 가능하다.
 
@@ -76,6 +79,7 @@ rtm.on("message", async event => {
 슬랙봇이 필요한 분이라면 꼭 한번씩 읽어보기를 추천드립니다.
 
 ## 참고
-- https://github.com/slackapi/node-slack-sdk
-- https://asce-hyunseung.tistory.com/78
-- https://story.pxd.co.kr/1262
+
+- <https://github.com/slackapi/node-slack-sdk>
+- <https://asce-hyunseung.tistory.com/78>
+- <https://story.pxd.co.kr/1262>

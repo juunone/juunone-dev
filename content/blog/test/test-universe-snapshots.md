@@ -1,7 +1,7 @@
 ---
 title: Test universe guide (Snapshots test)
 date: 2020-10-07 10:10:72
-category: tdd
+category: test
 thumbnail: { thumbnailSrc }
 draft: false
 ---
@@ -10,7 +10,7 @@ draft: false
 
 - [https://github.com/juunone/test-universe](https://github.com/juunone/test-universe)
 - [BDD-Behavior-Driven-Development](https://www.notion.so/BDD-Behavior-Driven-Development-0e6bdf1abcea41d881a6dc637d15da15)
-- [Blackbox test](https://www.notion.so/f1976fb35a694ec6992535e7a12a053c) 
+- [Blackbox test](https://www.notion.so/f1976fb35a694ec6992535e7a12a053c)
 
 # 학습 목표
 
@@ -52,8 +52,8 @@ test-universe(이하 'TU' 라고 칭함) 는 간단한 TO-DO 앱을 통해 테�
 - `act`는 검증을 위한 컴포넌트의 사전 준비단계인데, BDD 에서의 'When' 영역과 같다.
 - `toJSON` 메소드를 통해 노드의 속성이 포함된 객체를 반환하는데, 스냅샷 테스트시에 사용할 수 있다.
 - `toMatchSnapshot` jest의 단언문을 통해서 `toJSON` 을 통해 반환된 객체를 스냅샷으로 저장한다.
-    - jest로 테스트를 하면 스냅샷에 변경 점이 생길 때마다 업데이트 가능하다.
-    - 한 스냅에 한 객체만 저장되기 때문에 내부 텍스트나 element가 변경되면 테스트가 실패하게 된다.
+  - jest로 테스트를 하면 스냅샷에 변경 점이 생길 때마다 업데이트 가능하다.
+  - 한 스냅에 한 객체만 저장되기 때문에 내부 텍스트나 element가 변경되면 테스트가 실패하게 된다.
 
 ```jsx
 //TodoListContainer.js

@@ -1,7 +1,7 @@
 ---
 title: Test universe guide (Unit test)
 date: 2020-10-07 10:10:55
-category: tdd
+category: test
 thumbnail: { thumbnailSrc }
 draft: false
 ---
@@ -10,7 +10,7 @@ draft: false
 
 - [https://github.com/juunone/test-universe](https://github.com/juunone/test-universe)
 - [BDD-Behavior-Driven-Development](https://www.notion.so/BDD-Behavior-Driven-Development-0e6bdf1abcea41d881a6dc637d15da15)
-- [Blackbox test](https://www.notion.so/f1976fb35a694ec6992535e7a12a053c) 
+- [Blackbox test](https://www.notion.so/f1976fb35a694ec6992535e7a12a053c)
 
 # 학습 목표
 
@@ -42,7 +42,7 @@ test-universe(이하 'TU' 라고 칭함) 는 간단한 TO-DO 앱을 통해 테�
 
 jest 는 JavaScript 테스팅 프레임워크다.
 
-먼저 jest 공식 문서의 설명을 보면 
+먼저 jest 공식 문서의 설명을 보면
 
 > Jest is a delightful JavaScript Testing Framework with a focus on simplicity.
 
@@ -153,7 +153,7 @@ describe("Input", () => {
 
 1. data 배열의 내용 및 길이 만큼 순회 하면서 `li` 를 그려 주는가
 
-span의 `onClick` 이벤트는 유틸 함수라서 유틸에서 유닛테스트 에서 진행한다. 
+span의 `onClick` 이벤트는 유틸 함수라서 유틸에서 유닛테스트 에서 진행한다.
 
 ```jsx
 //List.js
@@ -258,6 +258,7 @@ describe("utils", () => {
 
 ![img1](./images/unit/1.png)
 `yarn test:watch` 실행 시키면 위와 같은 결과물을 볼수 있다.
+
 - 5개의 Test suites
-    - suite 마다 1개의 테스트
+  - suite 마다 1개의 테스트
 - 1개 Snapshots test

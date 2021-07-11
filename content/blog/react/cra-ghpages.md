@@ -1,7 +1,7 @@
 ---
 title: "React application SPA with gh-pages deploy(1)"
 date: 2019-01-12 21:00:00
-category: development
+category: react
 thumbnail: { thumbnailSrc }
 draft: false
 ---
@@ -54,6 +54,6 @@ draft: false
 
 <pre><code><span style="color:orange">yarn</span> predeploy</code><code><span style="color:orange">yarn</span> deploy</code></pre>
 
-CRA로 만든 앱이 해당 homepage 에 호스팅 된걸 확인할 수 있습니다. <a href="https://juunone.github.io/react-spa-ghpages" target="\_blank">https://juunone.github.io/react-spa-ghpages</a>
+CRA로 만든 앱이 해당 homepage 에 호스팅 된걸 확인할 수 있습니다. <a href="<<https://juunone.github.io/react-spa-ghpages>>" target="\_blank">https://juunone.github.io/react-spa-ghpages</a>
 
 다음 포스팅에서 react-rotuer-dom 연결을 통해 SPA 환경을 구축해보겠습니다.
