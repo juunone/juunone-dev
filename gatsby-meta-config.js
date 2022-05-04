@@ -5,7 +5,7 @@ module.exports = {
   introduction: `야크 쉐이빙을 하며 더 좋은 코드를 설계하고 생각합니다.`,
   siteUrl: `https://juunone.netlify.app`, // Your blog site url
   social: {
-    twitter: `juunwon`, // Your Twitter account
+    twitter: ``, // Your Twitter account
     github: `juunone`, // Your GitHub account
     medium: ``, // Your Medium account
     facebook: ``, // Your Facebook account
